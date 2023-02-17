@@ -3,4 +3,9 @@ div.sidenav {
   width: 200px;
   height: 100%;
   background-color: #2c3338;
+  color: white;
+}
+
+div.sidenav-content {
+  margin-left: 10px;
 }
