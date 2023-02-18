@@ -25,6 +25,13 @@ const SideNav = () => {
           <Link><i class='bx bx-user'></i>Account</Link>
           <Link><i class='bx bx-exit'></i>Logout</Link>
         </div>
+        <div className="usage-info">
+          <p>Tier: {user.tier}</p>
+          <div className="progress-bar">
+            <div className="progress"></div>
+          </div>
+          <p>5gb / 10gb</p>
+        </div>
       </div>
     </div>
   )
